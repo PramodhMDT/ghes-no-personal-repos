@@ -1,0 +1,19 @@
+{
+  "name": "ghes-no-personal-repos",
+  "version": "1.0.0",
+  "description": "Automatically delete any repositories created outside an Organization",
+  "author": "John Wiebalk <jwiebalk@github.com>",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jwiebalk/ghes-no-personal-repos.git"
+  },
+  "dependencies": {
+    "github-webhook-handler": "*",
+    "http": "*",
+    "dotenv": "*"
+  }
+}
